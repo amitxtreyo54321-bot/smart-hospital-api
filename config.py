@@ -1,5 +1,5 @@
 DB_USER = "root"
-DB_PASSWORD = "benzene_79033"
+DB_PASSWORD = "your password"
 DB_HOST = "localhost"
 DB_NAME = "hospital_db"
 
