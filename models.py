@@ -45,3 +45,11 @@ class Medicine(Base):
     patient_id = Column(Integer)
     medicine_name = Column(String(100))
     dosage = Column(String(50))
+
+class Bed(Base):
+    __tablename__ = "beds"
+
+    id = Column(Integer, primary_key=True, index=True)
+    room_id = Column(Integer)
+    bed_number = Column(Integer)
+    status = Column(String(50))
