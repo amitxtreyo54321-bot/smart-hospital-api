@@ -83,3 +83,13 @@ class Medicine(BaseModel):
 
     class Config:
         from_attributes = True
+
+class BedCreate(BaseModel):
+    room_id: int
+    bed_number: int
+    status: str
+    
+class BedUpdate(BaseModel):
+    room_id: int
+    bed_number: int
+    status: str
